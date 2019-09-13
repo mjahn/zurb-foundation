@@ -8,13 +8,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Mjahn\\ZurbFoundationPreset\\": "src/"
+            "LaravelFrontendPresets\\ZurbFoundationPreset\\": "src/"
         }
     },
     "extra": {
       "laravel": {
         "providers": [
-          "Mjahn\\ZurbFoundationPreset\\ZurbFoundationPresetServiceProvider"
+          "LaravelFrontendPresets\\ZurbFoundationPreset\\ZurbFoundationPresetServiceProvider"
        ]
       }
     }
